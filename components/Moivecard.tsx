@@ -15,7 +15,7 @@ const MovieCard = ({
     <View className="flex-1">
       <TouchableOpacity
         className="w-full"
-        onPress={() => router.push(`/movies/${id}`)}
+        onPress={() => router.push(`/moives/[id]`)}
       >
         <Image
           source={{
